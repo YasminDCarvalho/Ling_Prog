@@ -10,47 +10,49 @@ programa
 { 
 	funcao inicio () 
 	{ 
-		real numero1, numero2
-		inteiro op //" " cadeia / ' ' caracter
+		real numero1, numero2, resposta = 0
+		caracter op //" " cadeia / ' ' caracter
 
 		escreva("Calculadora simples\n\n")
 
-		escreva("Qual operação deseja realizar: \n(1) soma \n(2) subtração \n(3) multiplicação \n(4) divisão\n\n")
+		escreva("Qual operação deseja realizar: (+, -, *, /):  ")
 		leia(op)
 
 		escreva("\nPrimeiro número: ")
 		leia(numero1)
 
-		escreva("Segundo número: ")
+		escreva("\nSegundo número: ")
 		leia(numero2)
 
-		se(op == 1)
+		escolha (op)
 		{
-		escreva("\n", numero1, " + ", numero2, " = ", numero1 + numero2, "\n")
+			caso '/':
+				resposta = numero1 / numero2
+				pare
+			caso '*':
+				resposta = numero1 * numero2
+				pare
+			caso '+':
+				resposta = numero1 + numero2
+				pare
+			caso '-':
+				resposta = numero1 - numero2
+				pare
+			caso contrario:
+				escreva("Opção inválida!")
+			pare
 		}
-		senao se (op == 2) 
-			{
-				escreva("\n", numero1, " - ", numero2, " = ", numero1 - numero2, "\n")
-			}
-			senao se(op == 3) 
-				{
-				escreva("\n", numero1, " * ", numero2, " = ", numero1 * numero2, "\n") 
-				}
-				senao se (op == 4)
-				{ 
-				escreva("\n", numero1, " / ", numero2, " = ", numero1 / numero2, "\n") 
-				}
+		escreva("\nO resultado de ", numero1, " ", op, " ", numero2, " é: ", resposta, "\n")
 	}
 }
 	
-
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 893; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

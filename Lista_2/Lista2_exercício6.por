@@ -42,7 +42,7 @@ programa
  * inteiro numero = 0 // inicializaçõa
  * enquanto (condição)  // condição  pode ser operadores lógicos e relacionais 
  * {
- * numero++ // atualização (incremento ou decremento)
+ * numero++ // atualização (incremento ++ ou decremento --)
  * código que será repetido
  * }
  * 
@@ -55,8 +55,9 @@ programa
  * crio uma condição e enquanto a entrada não for a condição que criei, ele vai repetir.
  * 
  * PARA
- * Possui uma variável contadora
- * para(Inicialização; Condição; Atualização)
+ * Possui uma variável contadora, 
+ * (Inicio; fim; como)
+ * para(Inicialização; Condição; Atualização) 
  * {
  * código que será repetido n vezes
  * }
@@ -70,7 +71,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1336; 
+ * @POSICAO-CURSOR = 846; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

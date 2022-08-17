@@ -28,12 +28,19 @@ programa
 	} 
 }
 
+/* 
+ *  % módulo (mod) é o resto da divisão inteira 
+ *  divide um número pelo outro fazendo uma divisão inteira, você tem um resto.
+ *  Ex: 9/2 = 4 e sobra 1 e 4 * 2 = 8, logo o resto é 1
+ *  
+ *  z = 4 % 2 (Divisão inteira de 4/2 = 2 e resto é 0. Logo o z recebe 0
+ */
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 272; 
+ * @POSICAO-CURSOR = 746; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
